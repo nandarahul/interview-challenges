@@ -7,7 +7,8 @@ import requests
 import sys
 import re
 import time
-URL = "http://gallows.hulu.com/play?code=nanda7@purdue.edu"
+emailID = ""
+URL = "http://gallows.hulu.com/play?code="+emailID
 
 
 def get_wordlist_filename(word_length):
