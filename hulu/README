@@ -1,0 +1,18 @@
+** Instructions to Run **
+
+1) Create a Python virtual environment
+    $ virtualenv hulu_project
+
+2) Activate the env:
+    $ source hulu_project/bin/activate
+
+3) Install all the package dependencies through the requirements.txt file
+    $ pip install -r requirements.txt
+
+4) Run hangman.py file:
+   $ python hangman.py
+
+
+*****************************
+The wordlist files are taken from :
+https://github.com/first20hours/google-10000-english
